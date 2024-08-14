@@ -1,0 +1,226 @@
+@media screen and (max-width:576px) {
+    .menu{
+        display: block;
+        margin-top: 12px;
+    }
+    .nav-btn{
+        display: none;
+    }
+    .banner{
+     flex-direction: column; 
+        
+    }
+    .left-side{
+        margin-top: -10%;
+    }
+    .join{
+        padding: 12px 16px;
+
+    }
+    .download{
+        padding: 10px 12px;
+
+    }
+    .fit-btn{
+        height: 80px;
+    width: 130px;
+      top: 15px;
+     left: 65%;
+    
+
+    }
+    .video{
+        height: 80px;
+        width: 140px;
+       left: 32px;
+        top: 253px;
+    }
+    .circle{
+        height: 28px;
+        width: 28px;
+        left: 14%;
+        top: 47%;
+        
+    }
+    .right-side{
+    margin-top: 5rem;
+    
+    }
+
+/* change section start */
+
+.title{
+    font-size: 25px;
+
+    }
+
+.habit{
+    font-size: 12px;
+    line-height: 1.5rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    }
+
+/* change section end */
+
+/* card section start */
+
+.card{
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.bio{
+    margin-right: 18%;
+}
+
+.story{
+    margin-bottom: 10%;
+}
+
+/* card section end */
+
+/* box-section start */
+
+.main-container{
+    flex-direction: column;
+    /* Width: 300px; */
+    margin-bottom: 2rem;
+    /* Height: 430px; */
+    width: 95%;
+}
+
+.way{
+    width: 250px;
+    border-radius: 10px;
+    margin-top: 2rem;
+}
+
+.run{
+    font-size: 2rem;
+   font-weight: 900;
+   line-height: 2rem;
+   margin-right: 0;
+   padding-right: 0;
+   
+}
+
+.click{
+   
+    align-items: center;
+    width: 100%;
+
+}
+
+/* box-section end */
+
+/* bmi start here */
+
+.workout-bmi{
+    flex-direction: column;
+}
+
+
+
+.table-bmi td,th{
+    font-size: 12px;
+    padding: 9px 15px;
+    
+}
+.calculate .intro{
+    font-size: 16px;
+    margin-top: 30px;
+}
+.input-style input{
+     width: 100%;
+}
+.next{
+    width: 100%;
+
+}
+
+.bmi-tab{
+   width: 90%;
+}
+.cal{
+    margin-top: 10%;
+    max-width: none;
+  
+}
+
+.bmi{
+    font-size: 1.5rem;
+
+}
+.pass{
+    line-height: 1.3rem;
+}
+/* bmi end here */
+
+/* meet our team start */
+
+.meet-images{
+    grid-template-columns: repeat(1,1fr);
+    
+}
+
+
+/* meet our team end */
+
+/* footer start */
+
+.footer-text-part{
+    max-width: 100%;
+}
+
+.last{
+   padding: 0px;
+   margin-top: 20px;
+   padding-top: 20px;
+
+}
+
+
+.one{
+    flex-direction: column;
+  max-width: 0;
+  margin: 20px;
+}
+
+.three{
+    width: 90vw;
+ 
+}
+
+.four{
+    width: 90vw;
+}
+
+.six{
+    width: 90vw;
+}
+.five{
+width: 90vw;
+
+}
+
+.seven{
+ width: 90vw;
+}
+
+.list1 li{
+    font-size: 14px;
+}
+
+.fit-class{
+    font-size: 40px;
+   
+}
+
+.copyright{
+    margin-top: 50px;
+   padding-bottom: 50px;
+
+
+}
+}

@@ -1,0 +1,879 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Pacifico&family=Whisper&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+    color: white;
+
+}
+
+body{
+     
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-color: black;
+}
+
+
+
+/* navbarcss start here */
+.head-class{
+    max-width: 80%;
+    margin: 2rem auto;
+
+}
+.navbar-main{
+    border: 0px solid;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+   
+   
+}
+.fit-class{
+    color: #e6533c;
+    font-size: 2rem;
+    font-weight: 800;
+    font-style: italic;
+
+}
+
+.menu{
+    display: none;
+}
+
+.nav-btn{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+   
+   
+}
+
+.nav-menu{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    border: 1px solid rgb(58, 58, 58);
+   border-radius: 1px;
+   padding: 2px;
+   border-radius: 20px;
+   
+}
+
+.nav-menu>li{
+    padding: 6px 18px;
+    border-radius: 20px;
+
+}
+
+.nav-home{
+    background-color: #e6533c;
+    color: white;
+    
+}
+/* navbar css end here */
+
+/* banner css start */
+
+
+.banner{
+
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem auto;
+
+}
+
+.left-side{
+    margin-top: 2rem;
+}
+
+.left-side>h1{
+
+    font-size: 3rem;
+    padding-top: 3rem;
+    font-weight: 900;
+    color: white;
+    line-height: 5rem;
+    
+}
+
+.left-side>h1>span{
+    font-family: "Grey Qo", cursive;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 6rem;
+   
+   
+}
+
+.para{
+
+    font-size: 14px;
+    color: rgb(142, 142, 142);
+    max-width: 80%;
+    line-height: 1.3rem;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+.join{
+    padding: 0.8rem 2.5rem;
+    font-size: .8rem;
+    background-color: #e6533c;
+    border-radius: 6rem;
+    outline: none;
+    border: none;
+
+}
+
+.download{
+    padding: 0.8rem 2.5rem;
+    font-size: .8rem;
+    border-radius: 6rem;
+    outline: none;
+    border: 1px solid white;
+    background-color:transparent;
+    margin-left: .8rem;
+
+
+}
+
+
+.right-side{
+    position: relative;
+
+
+
+}
+
+.fit-btn{
+    position: absolute;
+    left: 70%;
+    top: 25%;
+    background: #80808075;
+    height: 80px;
+    width: 190px;
+    border-radius: 8px;
+    text-align: center;
+    
+    
+
+}
+
+
+.fit-btn>h2{
+    font-weight: 900;
+    font-size: 2rem;
+    background: transparent;
+    padding-top: 10px;
+
+}
+.fit-btn>p{
+    font-size: .7rem;
+    background: transparent;
+    color: rgb(175, 173, 173);
+
+}
+
+
+.circle{
+    height: 35px;
+    width: 35px;
+    background-color: #e6533c;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 14%;
+    left: -19%;
+    z-index: 1;
+    
+   
+
+}
+
+.video{
+    position: absolute;
+    left: -25%;
+   bottom: 10.5%;
+   background: #5454545b;
+   height: 80px;
+   width: 190px;
+   border-radius: 8px;
+   text-align: center;
+   backdrop-filter: blur(5px);
+   
+}
+
+.video>h2{
+    font-weight: 900;
+    font-size: 1.5rem;
+    background: transparent;
+    padding-top: 10px;
+    padding-left: 17px;
+    
+}
+
+.video>p{
+
+    font-size: .9rem;
+    background: transparent;
+    color: rgb(184, 184, 184);
+    padding-left: 35px;
+    padding-top: 8px;
+
+}
+
+/* banner css end */
+
+
+/* section css start */
+
+
+.title{
+    font-size: 35px;
+    font-weight: 900;
+    text-align: center;
+
+
+}
+
+.habit{
+    font-size: 12px;
+    color: rgb(142, 142, 142);
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+
+
+
+}
+
+/* section css end */
+
+/* card section css start */
+
+.card{
+    max-width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 40px;
+    padding-top: 4rem;
+    
+    
+
+}
+
+.bio{
+
+    text-align: center;
+  margin-right: 30px;
+ padding-top: 1rem;
+ line-height: 1rem;
+
+
+}
+.story{
+    font-size: 12px;
+    color: rgb(142, 142, 142);
+    text-align: center;
+    align-items: center;
+    margin-right: 25px;
+    padding-top: 5px;
+    line-height: 1rem;
+    
+
+
+}
+
+.pic{
+    height: 140px;
+    width: 140px;
+    border: 3px solid  rgb(41, 41, 41); ;
+    border-radius: 100% ;
+    margin-left: 30px;
+    
+   
+}
+
+
+
+/* card section css end */
+
+/* box css start */
+
+
+.main-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #222222;
+width: 80%;
+margin: 0 auto;
+padding: 60px;
+border-radius: 15px;
+margin-top: 5rem;
+}
+
+.left-box-container{
+    background-color:  #222222;;
+}
+
+.right-box-container{
+
+    border-radius: 10px;
+}
+
+
+.box-section{
+    height: 400px;
+    width: 1000px;
+    background-color:  #80808075;
+    margin-top: 100px;
+    
+   
+
+}
+
+.box{
+    padding-top: 5rem;
+    display: flex;
+    background-color:  #80808075;
+    padding-left: 30px;
+  /* color: transparent; */
+
+
+}
+.box-run{
+
+    padding-left: 4rem;
+    
+}
+
+.run{
+    font-size: 2rem;
+   font-weight: 900;
+   line-height: 2rem;
+   margin-right: 7rem;
+   padding-right: 4rem;
+   background-color:  #222222;;
+}
+
+
+
+.data{
+    font-size: 12px;
+    background-color:  #222222;;
+    color: rgb(142, 142, 142);
+    margin-right: 25px;
+    padding-top: 5px;
+    gap: 2rem;
+    margin-top: 1rem;
+    line-height: 1.4rem;
+
+    
+
+
+}
+
+.click{
+    padding: 0.8rem 3.5rem;
+    font-size: .8rem;
+    background-color: #e6533c;
+    border-radius: 6rem;
+    outline: none;
+    border: none;
+    margin-top: 2rem;
+
+
+
+}
+
+.way{
+    width: 350px;
+    border-radius: 10px;
+}
+
+
+
+
+
+/* box css end */
+
+
+/* image secion css start */
+.first{
+    margin: auto;
+max-width: 80%;
+
+}
+
+.train{
+ font-size: 1.8rem;
+ font-weight: 900;
+
+margin-top: 100px;
+}
+
+.exer{
+
+    font-size: 12px;
+    color: rgb(142, 142, 142);
+    margin-top: 20px;
+    line-height: 1.5rem;
+ 
+
+}
+
+.photo1{
+    max-width: 100% ;
+    height: 250px;
+
+      
+}
+.photo2{
+    max-width: 100% ;
+    height: 250px;
+
+}
+.photo3{
+    max-width: 100% ;
+    height: 250px;
+
+}
+.photo4{
+    max-width: 100% ;
+    height: 250px;
+
+      
+}
+.photo5{
+    max-width: 100% ;
+    height: 250px;
+
+}
+.photo6{
+    max-width: 100% ;
+    height: 250px;
+
+}
+
+.row-1{
+    display: grid;
+    grid-template-columns: .85fr 1.2fr .95fr;
+    max-width: 80%;
+    margin: auto;
+    margin-top: 3rem;
+    
+}
+
+.row-2{
+    display: grid;
+    grid-template-columns: 1.3fr .9fr 1.1fr;
+    max-width: 80%;
+    margin: auto;
+    margin-top: -.3rem;
+}
+.fitness{
+    position: relative;
+    max-width: 100%;
+}
+.fit1{
+    position: absolute;
+    left: 5%;
+    bottom: 20%;
+    background: transparent;
+} 
+.fit2{
+    position: absolute;
+    left: 5%;
+    bottom: 80%;
+    background: transparent;
+} 
+.fit3{
+    position: absolute;
+    left: 5%;
+    bottom: 25%;
+    background: transparent;
+} 
+.fit4{
+    position: absolute;
+    right: 4%;
+    bottom: 80%;
+    background: transparent;
+} 
+.fit5{
+    position: absolute;
+    left: 5%;
+    bottom: 25%;
+    background: transparent;
+} 
+.fit6{
+    position: absolute;
+    left: 5%;
+    bottom: 25%;
+    background: transparent;
+} 
+
+
+
+/* image section css end */
+
+/* bmi css start here */
+
+.cal{
+    margin-top: 6rem;
+    text-align: start;
+    max-width: 50%;
+    margin: auto;
+    margin-top: 100px;
+
+} 
+
+ .bmi{
+    font-size: 2rem;
+    font-weight: 800;
+    
+
+} 
+
+ .pass{
+    font-size: 12px;
+    color: rgb(142, 142, 142);
+    line-height: 2rem;
+   
+    
+    
+} 
+
+.sec-bmi{
+    margin-top: 100px;
+    background-color: rgba(129, 129, 129, 0.221);
+    padding: 50px 0 ;
+    
+ } 
+
+  .workout-bmi{
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+    margin: auto;
+} 
+
+.table-bmi td, th{
+    border: 1px solid grey;
+    padding: 10px 30px;
+    color: grey ;
+    text-wrap: nowrap;
+    
+    
+
+}
+.table-bmi th{
+    color: white;
+}
+
+.bmi-tab{
+    border-collapse: collapse;
+
+}
+.bmi-cap{
+    font-size: 25px;
+    font-weight: 800;
+    margin-bottom: 40px;
+
+
+}
+
+.calculate input, select{
+    background: transparent;
+    background-color:  rgba(128, 128, 128, 0.616);
+   padding: 10px 20px;
+   border-radius: 5px;
+   border: none;
+  &::placeholder{ color:  rgba(172, 171, 171, 0.895);}
+  
+}
+.calculate select{
+    color:  rgba(172, 171, 171, 0.895);
+
+}
+.input-style{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 30px;
+    gap: 10px;
+   
+}
+
+.select-factor{
+    grid-column: span 2;
+}
+.next{
+
+    padding: 0.8rem 3.5rem;
+    font-size: .8rem;
+    background-color: #e6533c;
+    border-radius: 6rem;
+    outline: none;
+    border: none;
+}
+.calculate .info{
+    font-size: 12px;
+    color: grey;
+    
+}
+.calculate .intro{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+    
+    
+
+
+/* bmi css end here */
+
+/* meet css start */
+
+.meet-images{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3,1fr);
+   background-color: rgba(65, 65, 65, 0.493);
+   padding: 30px;
+   border-radius: 20px;
+   max-width: 90%;
+   margin: auto;
+   margin-top: 100px;
+   /* justify-content: center;
+   align-items: center; */
+   justify-content: space-between;
+   
+
+}
+.meet-images img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    filter: brightness(.60);
+
+
+}
+
+.meet-team{
+    margin-top: 100px;
+}
+
+.meet-team h2{
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.meet-team p{
+    font-size: 12px;
+    color: rgb(142, 142, 142);
+    line-height: 2rem;
+    text-align: center;
+   
+}
+
+.meet-pic{
+    position: relative;
+
+}
+
+.meet-title{
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+}
+
+.meet-title p{
+    font-size: 12px;
+    color: rgb(142, 142, 142);
+
+}
+
+/* meet css end */
+
+/* unique css start */
+
+.plans{
+   text-align: center;
+   font-size: 30px;
+   font-weight: 800;
+   margin-top: 80px;
+   
+}
+
+.plans-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px, auto));
+    align-items: center;
+    gap: 2.3rem;
+    margin-top: 4.2rem;
+}
+
+.boxes{
+    padding: 20px 10px 20px 30px;
+    /* max-width: 100%; */
+    height: 30rem;
+    background:  rgba(75, 75, 75, 0.308);
+    border-radius: 28px;
+    border: 1px solid transparent;
+    box-shadow: 5px 5px 5px  #e6533c;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 40px;
+  
+  
+}
+
+.boxes h3{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.boxes h2{
+    font-size:25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+}
+
+.boxes ul li{
+    list-style: disc;
+    font-size: 1.5rem;
+    padding-bottom: 1.2rem;
+    color: #e6533c;
+}
+
+.boxes a{
+    display: inline-block;
+    font-size: 22px;
+    line-height: 1.2rem;
+    font-weight: 700;
+    padding: 7px 0;
+    color:  white;
+    /* border-bottom: 2px solid #5d6c83; */
+    transition: all 0.5s ease;
+}
+
+.boxes i{
+    vertical-align: middle;
+    font-size: 25px;
+    color: whitesmoke;
+    margin-left: 5px;
+
+}
+
+.boxes a:hover{
+    border-bottom: 2px solid whitesmoke;
+}
+
+.boxes:hover{
+    border: 1px solid;
+    transform: translateY(-5px) scale(1.03);
+    
+}
+
+.view{
+    padding: 0.8rem 2.5rem;
+    font-size: .8rem;
+    font-weight: 200;
+    background-color: #e6533c;
+    border-radius: 6rem;
+    align-items: center;
+    margin-top: 50px;
+    outline: none;
+    border: none;
+
+}
+
+
+/* unique css end */
+
+
+
+/* footer css start */
+
+
+.last{
+    background-color: #35353589;
+    padding: 100px;
+    margin-top: 100px;
+    display: grid;
+}
+
+.footer-text-part{
+    width: 50%;
+}
+
+.one{
+   max-width: 80%;
+   display: flex;
+   justify-content: space-between;
+   margin: auto;
+  
+    
+}
+
+.three{
+ 
+    padding-bottom: 2rem;
+    margin-top: 25px;
+    font-size: 12px;
+    color: rgb(142, 142, 142);
+    line-height: 1.5rem;
+    
+    
+}
+.four{
+   
+    padding-bottom: 10px;
+}
+.five>li{
+
+    padding-bottom: 2px;
+}
+
+
+.list1 li{
+   
+    list-style: none;
+    margin: 20px 0px;
+    color: gray;
+    font-size: 16px;
+}
+
+/* .footer-text-part{
+
+    max-width: 40%;
+} */
+
+hr{
+    border: 1.25px solid #70707076;
+
+}
+.copyright{
+    text-align: center;
+    color: grey;
+    margin-top: 30px;
+}
+
+/* footer css end */
+
+
+
+
